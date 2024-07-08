@@ -33,7 +33,6 @@ class BakingViewModel : ViewModel() {
             topP = 0.95f
             maxOutputTokens = 8192
             //responseMimeType = "text/plain"
-            //Dispatchers.IO
         },
         safetySettings = listOf(
             SafetySetting(HarmCategory.HARASSMENT, BlockThreshold.LOW_AND_ABOVE),
