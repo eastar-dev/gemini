@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">answerme</string>
+    <string name="action_go">Go</string>
+    <string name="baking_title">Baking with Gemini</string>
+    <string name="label_prompt">Prompt</string>
+    <string name="prompt_placeholder">엄마가 아프다고 연락이 왔는데 계좌번호로 병원비를 보내달래 어떻게 하지?</string>
+    <string name="image1_description">Cupcake</string>
+    <string name="image2_description">Cookies</string>
+    <string name="image3_description">Cake</string>
+    <string name="results_placeholder">(Results will appear here)</string>
+</resources>
