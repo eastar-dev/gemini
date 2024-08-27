@@ -23,6 +23,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".TransparentActivity"
+            android:exported="true"
+            android:label="mbti answer"
+            android:theme="@style/TransparentActivityTheme" />
     </application>
 
 </manifest>

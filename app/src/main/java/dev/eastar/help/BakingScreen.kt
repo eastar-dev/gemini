@@ -1,5 +1,6 @@
 package dev.eastar.help
 
+import android.content.Intent
 import android.graphics.BitmapFactory
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
@@ -107,6 +108,7 @@ fun BakingScreen(
                     .align(Alignment.CenterVertically)
             )
 
+            val context = LocalContext.current
             Button(
                 onClick = {
                     //val bitmap = BitmapFactory.decodeResource(

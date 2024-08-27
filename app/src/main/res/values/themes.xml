@@ -2,4 +2,14 @@
 <resources>
 
     <style name="Theme.Answerme" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!-- 기본 투명 Activity 테마 정의 -->
+    <style name="TransparentActivityTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
 </resources>
