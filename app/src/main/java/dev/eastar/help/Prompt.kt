@@ -10,8 +10,6 @@ import com.google.ai.client.generativeai.type.generationConfig
 suspend fun prompt(content: String, mbti: String): String {
     val model = GenerativeModel(
         "gemini-1.5-flash",
-        // Retrieve API key as an environmental variable defined in a Build Configuration
-        // see https://github.com/google/secrets-gradle-plugin for further instructions
         BuildConfig.apiKey,
         generationConfig = generationConfig {
             temperature = 1f
@@ -20,8 +18,6 @@ suspend fun prompt(content: String, mbti: String): String {
             maxOutputTokens = 8192
             //responseMimeType = "text/plain"
         },
-        // safetySettings = Adjust safety settings
-        // See https://ai.google.dev/gemini-api/docs/safety-settings
         safetySettings = listOf(
             SafetySetting(HarmCategory.HARASSMENT, BlockThreshold.LOW_AND_ABOVE),
             SafetySetting(HarmCategory.HATE_SPEECH, BlockThreshold.MEDIUM_AND_ABOVE),

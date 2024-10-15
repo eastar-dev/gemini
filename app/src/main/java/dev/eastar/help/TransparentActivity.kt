@@ -34,7 +34,7 @@ class TransparentActivity : ComponentActivity() {
             "ISTP: 만능 재주꾼, 문제 해결사, 실용적",
             "ISFP: 호기심 많은 예술가, 유연하고 수용적",
             "ESTP: 모험을 즐기는 기업가, 활동적, 문제 해결사",
-            "ESFP: 자유로운 영혼의 연예인, 활기차고 긍정적"
+            "ESFP: 자유로운 영혼의 연예인, 활기차고 긍정적",
         )
 
         // AlertDialog Builder 사용
